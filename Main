@@ -1,0 +1,11 @@
+package Zadanie1;
+
+public class Main {
+    public static void main(String[] args)
+    {
+        Cat cat = new Cat("Kurczak", "Bronzowy");
+        cat.makeSound();
+        Dog dog = new Dog("Badi", "Czarny");
+        dog.makeSound();
+    }
+}
