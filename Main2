@@ -1,0 +1,14 @@
+package Zad2;
+
+public class Main2
+{
+    public static void main(String[] args)
+    {
+        Bookshop bookshop = new Bookshop("Szpora 78", "Średnia");
+        bookshop.get_info();
+        Bakery bakery = new Bakery("Sikorskiego 61", "Wielka");
+        bakery.get_info();
+        Shop shop = new Shop("Wilanowska 43", "Niewielka");
+        shop.get_info();
+    }
+}
