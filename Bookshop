@@ -1,0 +1,19 @@
+package Zad2;
+
+public class Bookshop extends Shop
+{
+    private String[] products = {"C++ w kilka godzin", "C# już nie straszny", "HTML i CSS czyli jak łatwo zrobić stronę", "Wiedza o pythonie rośnie w oczach"};
+    Bookshop(String address, String size)
+    {
+        super(address, size);
+    }
+    public void get_info()
+    {
+        super.get_info();
+        System.out.println("Nasze Ksionszki");
+        for (String i : products)
+        {
+            System.out.println(i);
+        }
+    }
+}
